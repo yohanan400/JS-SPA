@@ -29,6 +29,9 @@ function signInButtonHandler() {
 
             container.innerHTML = '';
             container.appendChild(mianPageClone);
+
+            const manuBar = document.getElementById("manu-bar");
+            manuBar.style.visibility = "hidden";
         }
         else {
             alert("Wrong, try again!");

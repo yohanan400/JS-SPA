@@ -18,6 +18,8 @@ signOutHnadler();
 // sign-out page
 function signOutHnadler() {
     const container = document.getElementById("container");
-
     container.innerHTML = "<h1> Welcome to ower site! <br/> you are not signed in! </h1>";
+
+    const manuBar = document.getElementById("manu-bar");
+    manuBar.style.visibility = "visible";
 }
